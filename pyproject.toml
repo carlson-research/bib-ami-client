@@ -27,7 +27,7 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/carlson-research/bib-ami-client"
 Repository = "https://github.com/carlson-research/bib-ami-client"
-Documentation = "https://bib-ami.readthedocs.io"
+Documentation = "https://carlson-research.github.io/bib-ami-client/"
 
 [project.scripts]
 bib-ami = "bib_ami.__main__:main"

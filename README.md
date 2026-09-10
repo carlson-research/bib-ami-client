@@ -1,3 +1,8 @@
+[![CI](https://github.com/carlson-research/bib-ami-client/actions/workflows/ci.yml/badge.svg)](https://github.com/carlson-research/bib-ami-client/actions)
+[![PyPI Version](https://img.shields.io/pypi/v/bib-ami.svg)](https://pypi.org/project/bib-ami/)
+[![Python Version](https://img.shields.io/pypi/pyversions/bib-ami.svg)](https://pypi.org/project/bib-ami/)
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://carlson-research.github.io/bib-ami-client/)
+
 # bib-ami
 
 A lightweight, thin-client CLI for the **bib-ami** citation verification service. This package routes all citation metadata lookups and verification logic to the proprietary backend engine.

@@ -1,9 +1,9 @@
+# bib-ami
+
 [![CI](https://github.com/carlson-research/bib-ami-client/actions/workflows/tests.yml/badge.svg)](https://github.com/carlson-research/bib-ami-client/actions)
 [![PyPI Version](https://img.shields.io/pypi/v/bib-ami.svg)](https://pypi.org/project/bib-ami/)
 [![Python Version](https://img.shields.io/pypi/pyversions/bib-ami.svg)](https://pypi.org/project/bib-ami/)
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://carlson-research.github.io/bib-ami-client/)
-
-# bib-ami
 
 A lightweight, thin-client CLI for the **bib-ami** citation verification service. This package routes all citation metadata lookups and verification logic to the proprietary backend engine.
 
@@ -56,7 +56,7 @@ This project uses `pyproject.toml` for dependency management and requires Python
 Clone the repository and install the development dependencies in editable mode:
 
 ```bash
-git clone [https://github.com/your-org/bib-ami-client.git](https://github.com/your-org/bib-ami-client.git)
+git clone [https://github.com/carlson-research/bib-ami-client.git](https://github.com/carlson-research/bib-ami-client.git)
 cd bib-ami-client
 pip install -e ".[dev]"
 ```

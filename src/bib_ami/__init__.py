@@ -1,3 +1,3 @@
-"""bib-ami package."""
+"""bib-ami thin client package."""
 
-__version__ = "0.1.0"
+from bib_ami._version import __version__

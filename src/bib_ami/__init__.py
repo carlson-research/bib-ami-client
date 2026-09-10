@@ -1,3 +1,8 @@
 """bib-ami thin client package."""
 
-from bib_ami._version import __version__
+
+from ._version import __version__
+
+__all__ = [
+    "__version__",
+]

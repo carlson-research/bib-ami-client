@@ -35,13 +35,12 @@ def test_cli_lookup_e2e(httpx_mock):
     assert "Verified" in result.output
 
 
-
 def test_cli_lookup_e2e_error(httpx_mock):
     # Simulate a 404 Not Found from the API
     httpx_mock.add_response(
         url="http://127.0.0.1:8000/v1/citations/lookup?query=invalid",
         status_code=404,
-        json={"error": "Citation not found"}
+        json={"error": "Citation not found"},
     )
 
     runner = CliRunner()

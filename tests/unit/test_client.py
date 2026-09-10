@@ -33,6 +33,7 @@ def test_lookup_citation_http_error(httpx_mock):
     assert "error" in result
     assert "API request failed" in result["error"]
 
+
 def test_client_with_api_key(monkeypatch, httpx_mock):
     monkeypatch.setattr("bib_ami.client.API_KEY", "test-secret-key")
     httpx_mock.add_response(

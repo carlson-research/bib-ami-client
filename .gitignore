@@ -14,12 +14,6 @@ logs/
 # scripts
 scripts/
 
-# scikit-learn specific
-doc/_build/
-doc/auto_examples/
-doc/modules/generated/
-doc/datasets/generated/
-
 # Environments & Packaging
 .venv/
 venv/
@@ -71,8 +65,8 @@ coverage.xml
 *.log
 
 # Sphinx documentation
-# doc/_build/
-doc/generated/
+docs/_build/
+docs/generated/
 
 # PyBuilder
 target/

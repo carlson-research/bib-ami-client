@@ -1,3 +1,5 @@
+exclude: '^docs/_build/'
+
 repos:
   # 1. Standard Git sanity checks
   - repo: https://github.com/pre-commit/pre-commit-hooks

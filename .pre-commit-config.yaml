@@ -12,10 +12,8 @@ repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.3.5
     hooks:
-      # Run the Ruff linter and automatically fix safe issues
       - id: ruff
         args: [ --fix ]
-      # Run the Ruff formatter (replaces Black)
       - id: ruff-format
 
   # 3. Mypy: Static type checking
@@ -23,6 +21,3 @@ repos:
     rev: v1.9.0
     hooks:
       - id: mypy
-        # Provide types for external libraries you use
-        additional_dependencies:
-          - types-requests
